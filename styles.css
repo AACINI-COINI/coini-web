@@ -1,0 +1,111 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-brand img {
+  height: 28px;
+  margin-top: -3px;
+}
+.navbar-default {
+  border-width: 0 0 2px;
+  border-color: #000000;
+}
+.nav.navbar-nav li a {
+  color: #1EB4E1;
+  text-transform: uppercase;
+}
+.nav.navbar-nav li a:focus,
+.nav.navbar-nav li a:hover {
+  color: #2892B2;
+}
+
+.modal-body a {
+  color: #FC6B21;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.modal-body a:hover {
+  color: #FC6B21;
+}
+
+.container.content {
+  margin-top: 50px;
+}
+.home-box {
+  padding: 60px 0;
+  background-color: #f8f8f8;
+  margin: 40px 0;
+  border-radius: 20px;
+  font-size: 45px;
+  font-family: 'Dosis', sans-serif;
+  color: #999;
+}
+.home-box img {
+  max-height: 100px;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+.invitation {
+  font-size: 17px;
+  margin: 30px 0;
+}
+
+h3 {
+  margin: 50px 0 30px;
+}
+h3,
+h4 {
+  font-family: 'Dosis', sans-serif;
+  color: #1EB4E1;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.organizan {
+  border-bottom: 2px solid #FC6B21;
+  padding-bottom: 50px;
+}
+.organizan h2 {
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  color: #FC6B21;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.organizan div img {
+  height: 100px;
+}
+footer {
+  background-color: #f8f8f8;
+  color: #000;
+  font-size: 11px;
+  margin-top: 50px;
+  padding: 40px 0;
+}
+footer .contacto {
+  font-size: 15px;
+}
+
+.table-cost {
+  width: 180px;
+}
+
+@media (max-width: 768px) {
+  .home-box {
+    font-size: 21px;
+    padding: 30px 0;
+  }
+  .organizan h2 {
+    font-size: 30px;
+    padding-bottom: 0;
+  }
+  .organizan div img {
+    height: 60px;
+    padding: 10px 0;
+  }
+  h3 {
+    margin: 30px 0 10px;
+  }
+  .table-cost {
+    width: inherit;
+  }  
+}
